@@ -236,6 +236,18 @@ Tab:AddToggle({
 
 Tab:AddButton({
 
+	Name = "飞行v3",
+
+	Callback = function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/xifan1234/C-/main/88"))()
+
+    end
+
+})
+
+Tab:AddButton({
+
 	Name = "飞行",
 
 	Callback = function()
@@ -641,6 +653,28 @@ Tab:AddButton({
      loadstring(game:HttpGet("https://pastebin.com/raw/LnAUPBXj",true))()
 
   	end    
+
+})
+
+local Tab = Window:MakeTab({
+
+	Name = "刀刃球",
+
+	Icon = "rbxassetid://4483345998",
+
+	PremiumOnly = false
+
+})
+
+Tab:AddButton({
+
+	Name = "111",
+
+	Callback = function()
+
+loadstring(game:HttpGet("https://paste.gg/p/anonymous/0425151104df470cb8203508e256b40a/files/aff63dcd12b04bfe8f6d9851eb6b2d3e/raw"))()
+
+    end
 
 })
 
